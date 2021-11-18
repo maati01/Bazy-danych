@@ -4,6 +4,7 @@ use Northwind
 select a.FirstName, a.LastName,a.EmployeeID, b.FirstName, b.LastName, b.EmployeeID
 from Employees a
 inner join Employees b on a.EmployeeID = b.ReportsTo
+where b.ReportsTo is not NULL
 
 --2
 select a.FirstName, a.LastName
