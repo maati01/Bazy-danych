@@ -1,2 +1,2 @@
 # Bazy-danych
-Rozwiązania zadań z labów. 
+Rozwiązania zadań z labolatoriów.
